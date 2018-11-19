@@ -1,7 +1,7 @@
 title: 赵不寒的网络日记
 email: nicolas-zhao@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  赵不寒的网络日记，在这里记录着自己的随想、随感和技术学习日志
+  在这里记录着自己的随想、随感和技术学习日志
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nicolaszhao.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  nicolaszhao

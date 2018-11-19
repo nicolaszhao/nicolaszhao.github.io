@@ -13,19 +13,17 @@
 
     <header>
       <div class="container">
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <h1>
+          <a class="home" href="/">
+            {{ site.title | default: site.github.repository_name }}
+          </a>
+          <small>
+            <a class="{% if page.title == 'about' %}active{% endif %}" href="/about/">关于</a>
+            <a class="{% if page.title == 'archives' %}active{% endif %}" href="/archives/">文章</a>
+            <a href="/feed.xml">RSS</a>
+          </small>
+        </h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-
-        <nav class="nav">
-          <ul>
-            <li>
-              <a href="https://github.com/nicolaszhao">Github</a>
-            </li>
-            <li>
-              <a href="/about.html">About</a>
-            </li>
-          </ul>
-        </nav>
       </div>
     </header>
 
@@ -34,6 +32,17 @@
         {{ content }}
       </section>
     </div>
+    <footer>
+      <div class="container">
+        <p>
+          &copy; 2019 Nicolas Zhao |
+          {% for link in site.data.contact %}
+            <a href="{{ link.url }}">{{ link.title }}</a>
+            {% if forloop.last == false %} | {% endif %}
+          {% endfor %}
+        </p>
+      </div>
+    </footer>
 
     {% if site.google_analytics %}
       <script>

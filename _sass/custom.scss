@@ -1,0 +1,98 @@
+@import "default_colors";
+
+a {
+  transition: .4s;
+}
+
+header {
+  h1 {
+    a {
+      display: inline-block;
+      color: $conifer;
+      text-decoration: none;
+    }
+
+    .home {
+      margin-right: 1.3em;
+    }
+
+    small {
+      font-size: .7em;
+      font-weight: normal;
+
+      a {
+        margin-right: 1em;
+        color: rgba(181, 232, 83, .6);
+
+        &:hover,
+        &.active {
+          color: $conifer;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  border-top: 1px dashed $conifer;
+  padding: 10px 0;
+  margin: 60px 0 0;
+  color: $dove-grey;
+
+  a {
+    color: #444;
+    text-shadow: none;
+
+    &:hover {
+      color: $silver-chalice;
+    }
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  header h1 {
+    margin-left: 0;
+  }
+
+  header h1:before {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  header h1 a {
+    display: block;
+    margin-bottom: 0.3em;
+  }
+
+  header h1 small {
+    display: block;
+    padding-left: 0.4em;
+  }
+}
+
+.categories {
+  margin-bottom: 1.4em;
+}
+
+.archives {
+  li {
+    margin-bottom: .6em;
+  }
+}
+
+.not-match {
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    margin: 15px 0 30px;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+}
