@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<ul class="archives-nav">
+  <li class="{% if page.category == nil %}active{% endif %}">
+    <a href="/archives/">全部归档</a>
+  </li>
+
+  {% for category in site.data.categories %}
+    {% capture category_link %}
+      <a class="iconfont icon-label" href="/archives/{{ category.slug }}">{{ category.name }}</a>
+    {% endcapture %}
+    {% if category.slug == page.category %}
+      <li class="active">
+        {% assign current_category = category %}
+        {{ category_link }}
+      </li>
+    {% else %}
+      <li>
+        {{ category_link }}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<ul class="archives-list">
+  {% for post in site.posts %}
+    {% capture article_link %}
+      <span class="archives-item-date">{{ post.date | date: "%Y.%m.%-d" }}:</span>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    {% endcapture %}
+
+    {% if current_category %}
+      {% for cate in post.categories %}
+        {% if cate == current_category.slug %}
+          <li>{{ article_link }}</li>
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      <li>{{ article_link }}</li>
+    {% endif %}
+  {% endfor %}
+</ul>

@@ -18,8 +18,8 @@
             {{ site.title | default: site.github.repository_name }}
           </a>
           <small>
-            <a class="{% if page.title == 'about' %}active{% endif %}" href="/about/">关于</a>
-            <a class="{% if page.title == 'archives' %}active{% endif %}" href="/archives/">文章</a>
+            <a class="{% if page.slug == 'about' %}active{% endif %}" href="/about/">关于</a>
+            <a class="{% if page.slug == 'archives' %}active{% endif %}" href="/archives/">归档</a>
             <a href="/feed.xml">RSS</a>
           </small>
         </h1>

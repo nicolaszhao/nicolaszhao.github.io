@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<article>
+  <div class="article-header">
+    <h1>{{ page.title }}</h1>
+
+    <p>
+      作者：{{ page.author | default: site.author }}
+    </p>
+    <p>
+      <small>日期：{{ page.date | date: "%Y年%m月%-d日" }}</small>
+    </p>
+  </div>
+  <div class="article-content">
+    {{ content }}
+  </div>
+  <div class="article-footer">
+    <ul class="article-nav">
+      {% if page.previous %}
+        {% assign post = page.previous %}
+        <li>
+          &laquo; 上一篇 <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endif %}
+      {% if page.next %}
+        {% assign post = page.next %}
+        <li>
+          下一篇 <a href="{{ post.url }}">{{ post.title }}</a> &raquo;
+        </li>
+      {% endif %}
+    </ul>
+  </div>
+</article>
+
+<div class="article-related-posts">
+  <h2>相关文章</h2>
+  <ul>
+      {% for post in site.related_posts %}
+        {% capture article_link %}
+          <span class="archives-item-date">{{ post.date | date: "%Y.%m.%-d" }}:</span>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        {% endcapture %}
+
+        <li>{{ article_link }}</li>
+      {% endfor %}
+  </ul>
+</div>
