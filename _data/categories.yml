@@ -1,2 +1,4 @@
-opinions: 胡思乱想
-skills: 技术瞎捣鼓
+- slug: opinions
+  name: 随感而发
+- slug: skills
+  name: 技术日志
