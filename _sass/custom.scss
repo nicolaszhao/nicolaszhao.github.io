@@ -36,9 +36,13 @@ header {
 footer {
   width: 100%;
   border-top: 1px dashed $conifer;
-  padding: 10px 0;
+  padding: 10px 0 30px;
   margin: 60px 0 0;
   color: $dove-grey;
+
+  p {
+    margin: .4em 0;
+  }
 
   a {
     color: #444;
