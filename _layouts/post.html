@@ -3,47 +3,71 @@ layout: default
 ---
 
 <article>
-  <div class="article-header">
-    <h1>{{ page.title }}</h1>
+  <h1>{{ page.title }}</h1>
+  <p class="article-metadata author">
+    作者：{{ page.author | default: site.author }}
+  </p>
+  <p class="article-metadata date">
+    <small>日期：{{ page.date | date: "%Y年%m月%-d日" }}</small>
+  </p>
 
-    <p>
-      作者：{{ page.author | default: site.author }}
-    </p>
-    <p>
-      <small>日期：{{ page.date | date: "%Y年%m月%-d日" }}</small>
-    </p>
-  </div>
-  <div class="article-content">
-    {{ content }}
-  </div>
-  <div class="article-footer">
-    <ul class="article-nav">
-      {% if page.previous %}
-        {% assign post = page.previous %}
-        <li>
-          &laquo; 上一篇 <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-      {% endif %}
-      {% if page.next %}
-        {% assign post = page.next %}
-        <li>
-          下一篇 <a href="{{ post.url }}">{{ post.title }}</a> &raquo;
-        </li>
-      {% endif %}
-    </ul>
-  </div>
+  {{ content }}
+
+  <ul class="article-info">
+    <li>
+      版权声明：
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/">
+        知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议
+      </a>
+    </li>
+    <li>
+      发表日期：
+      {{ page.date | date: "%Y年%m月%-d日" }}
+    </li>
+  </ul>
+
+  <div class="social-share" data-sites="wechat,qq,weibo,douban"></div>
 </article>
 
-<div class="article-related-posts">
-  <h2>相关文章</h2>
-  <ul>
-      {% for post in site.related_posts %}
-        {% capture article_link %}
-          <span class="archives-item-date">{{ post.date | date: "%Y.%m.%-d" }}:</span>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        {% endcapture %}
+<div class="article-footer">
+  {% for category in site.data.categories %}
+    {% if category.slug == page.categories[0] %}
+      {% assign article_category = category %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
 
-        <li>{{ article_link }}</li>
-      {% endfor %}
+  {% if article_category %}
+    <p class="article-category">
+      分类：<a href="/archives/{{ article_category.slug }}">{{ article_category.name }}</a>
+    </p>
+  {% endif %}
+
+  <ul class="article-nav">
+    {% if page.previous %}
+      {% assign post = page.previous %}
+      <li>
+        上一篇: <a href="{{ post.url }}">{{ post.title }}</a> &raquo;
+      </li>
+    {% endif %}
+    {% if page.next %}
+      {% assign post = page.next %}
+      <li>
+        下一篇: <a href="{{ post.url }}">{{ post.title }}</a> &raquo;
+      </li>
+    {% endif %}
+  </ul>
+</div>
+
+<div class="article-related">
+  <h2>相关文章</h2>
+  <ul class="archives-list">
+    {% for post in site.related_posts %}
+      {% capture article_link %}
+        {{ post.date | date: "%Y.%m.%-d" }}: <a href="{{ post.url }}">{{ post.title }}</a>
+      {% endcapture %}
+
+      <li>{{ article_link }}</li>
+    {% endfor %}
   </ul>
 </div>

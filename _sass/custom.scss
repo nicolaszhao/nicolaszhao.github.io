@@ -1,5 +1,29 @@
 @import "default_colors";
 
+@mixin primary-link {
+  a {
+    color: rgba(181, 232, 83, .6);
+    text-decoration: none;
+
+    &:hover,
+    &.active {
+      color: $conifer;
+    }
+  }
+}
+
+@mixin secondary-link {
+  a {
+    color: #444;
+    text-shadow: none;
+    text-decoration: none;
+
+    &:hover {
+      color: $silver-chalice;
+    }
+  }
+}
+
 a {
   transition: .4s;
 }
@@ -22,13 +46,9 @@ header {
 
       a {
         margin-right: 1em;
-        color: rgba(181, 232, 83, .6);
-
-        &:hover,
-        &.active {
-          color: $conifer;
-        }
       }
+
+      @include primary-link;
     }
   }
 }
@@ -44,14 +64,7 @@ footer {
     margin: .4em 0;
   }
 
-  a {
-    color: #444;
-    text-shadow: none;
-
-    &:hover {
-      color: $silver-chalice;
-    }
-  }
+  @include secondary-link;
 }
 
 @media only screen and (max-width: 760px) {
@@ -91,16 +104,9 @@ footer {
   a {
     font-size: 1.125em;
     text-decoration: none;
-    color: rgba(181, 232, 83, .6);
-
-    &:hover {
-      color: $conifer;
-    }
   }
 
-  .active a {
-    color: $conifer;
-  }
+  @include primary-link;
 }
 
 .archives-list {
@@ -124,34 +130,46 @@ footer {
   }
 }
 
-.article-header {
-  margin-bottom: 2em;
-
-  p {
+.article {
+  &-metadata {
     color: $dove-grey;
+
+    &.date {
+      margin-bottom: 2em;
+    }
   }
-}
 
-.article-footer {
-  margin-top: 2.5em;
-  padding-top: 1em;
-  border-top: solid 1px hsla(0, 0%, 100%, .1);
-}
+  &-info {
+    margin-top: 2em;
+    padding: .9em;
+    border-radius: .6em;
+    color: $dove-grey;
+    background: rgba(0, 0, 0, .1);
 
-.article-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
+    li {
+      margin-bottom: .6em;
+      list-style: none;
+    }
 
-  li {
-    list-style: none;
+    @include secondary-link;
   }
-}
 
-.article-related-posts {
-  margin-top: 3em;
+  &-footer {
+    margin: 2.4em 0;
+    padding-top: 1em;
+    border-top: solid 1px hsla(0, 0%, 100%, .1);
+  }
 
-  li {
-    margin-bottom: .6em;
+  &-category {
+    margin-bottom: 1.6em;
+    @include primary-link;
+  }
+
+  &-nav {
+    padding: 0;
+
+    li {
+      list-style: none;
+    }
   }
 }
