@@ -3,22 +3,15 @@ layout: post
 title:  焦虑的程序员
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+最近半年，一直在想一个问题：“程序员究竟能做多久？”。
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+自从去年华为爆出 35 岁程序员强制退休开始，网上出现了各种文章，都是讨论程序员是否能做一辈子，这很让刚入行的年轻人感到害怕，因为，刚刚入行就要考虑何时退休。还想起，我曾经面试到有很多年轻的候选人，问起职业规划时，不是要转管理，就是要做产品，很少有人说自己是多么多么热爱这份职业，如果可以，愿意一辈子写代码。可见，这个行业，很多一部分人都是冲着薪资起点高而来的。虽然，很多人在高起点的情况下进入了该行业，起点高啊，也很开心。但随着年龄的增长，学习经历的不足，心态和技能没调整到位的话，就很容易翻车了，而且，不像其他传统行业，可以越老越吃香的，比如：医生、律师、设计师等等。所以，这也是我焦虑的原因，而我又发现，我是一个经常会为工作焦虑的人。
 
-Jekyll also offers powerful support for code snippets:
+想起，刚踏入社会那会儿，我是在医院里工作的，当时我的工作是医院技师。大部分医院技师的工作看起来技术性很强，但工作内容的重复性很高，很容易产生枯燥和疲劳感。当时想想，感觉自己很可能一辈子就这样了，当日复一日的重复手中枯燥而没有活力的工作时，除了能带给来“熟练”，不会再有其他惊喜了。那时是第一次为自己感到焦虑，因为我不想这样无聊的过一辈子。
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+之后，又经历了几次重新择业，也都不那么成功，那时候就更焦虑了，感觉自己都快完蛋了。就在这时，地上捡到了一本：《JavaScript 高级程序设计》的红皮书，然后…… 。哈哈，以为拍电影呢？反正，是偶然的机会吧，跌跌撞撞的做了叫程序员的职业。
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+有时候，你会发现，并不是很多事情是你一定要先喜欢了才去做的，有的事，当你尝试去克服心里的害怕和抵触，去试着接触一下，能够坚持一段时间，你才会知道，自己是否喜欢。我刚入程序员这行也是这样的，开始其实不知道自己能够坚持下来。随着一点一点知识的积累和学习，竟然发现自己很能够静下心来去摸索，去研究和学习一些东西，也慢慢发现自己很满足于这种状态。特别是，后来在做 web 页面的时候，发现自己会不厌其烦的去花时间调整页面样式，而且当时也不懂多少 CSS，那时做个功能还是属于全栈的那种，一个模块从前到后的。但就在那时，我就特别喜欢捣鼓这些 UI。
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+很多人，可能选择做程序员是因为工资高。也有很多人，选择做前端工程师，是因为门槛低。我也很喜欢问候选人：“为什么选择前端开发？”。有很多人回答：“因为简单啊！”。哈哈，是的，这时候我通常会在心里暗笑：“前端真的简单吗？”
+
