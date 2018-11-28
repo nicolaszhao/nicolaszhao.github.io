@@ -3,13 +3,23 @@ layout: default
 ---
 
 <article>
-  <h1>{{ page.title }}</h1>
-  <p class="article-metadata author">
-    作者：{{ page.author | default: site.author }}
-  </p>
-  <p class="article-metadata date">
-    <small>日期：{{ page.date | date: "%Y年%m月%-d日" }}</small>
-  </p>
+  <div class="article-header">
+    <h1>{{ page.title }}</h1>
+    <p class="article-metadata author">
+      作者：{{ page.author | default: site.author }}
+    </p>
+    <p class="article-metadata date">
+      <small>日期：{{ page.date | date: "%Y年%m月%-d日" }}</small>
+    </p>
+
+    <script>
+      var idcomments_acct = '20e9ba5a8b458cc963bd64b8f0214200';
+      var idcomments_post_id;
+      var idcomments_post_url;
+    </script>
+    <script type="text/javascript" src="https://www.intensedebate.com/js/genericLinkWrapperV2.js"></script>
+    
+  </div>
 
   {{ content }}
 
@@ -26,7 +36,7 @@ layout: default
     </li>
   </ul>
 
-  <div class="social-share" data-sites="wechat,qq,weibo,douban"></div>
+  <div class="social-share" data-sites="weibo,douban,wechat,qq"></div>
 </article>
 
 <div class="article-footer">
@@ -71,3 +81,11 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+
+<script>
+  var idcomments_acct = '20e9ba5a8b458cc963bd64b8f0214200';
+  var idcomments_post_id;
+  var idcomments_post_url;
+</script>
+<span id="IDCommentsPostTitle" style="display:none"></span>
+<script type='text/javascript' src='https://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>

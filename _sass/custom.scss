@@ -131,12 +131,12 @@ footer {
 }
 
 .article {
+  &-header {
+    margin-bottom: 2em;
+  }
+
   &-metadata {
     color: $dove-grey;
-
-    &.date {
-      margin-bottom: 2em;
-    }
   }
 
   &-info {
@@ -172,4 +172,13 @@ footer {
       list-style: none;
     }
   }
+
+  &-related {
+    margin-bottom: 3em;
+  }
+}
+
+/* 临时设置，之后调整到 intensedebate.com 中去 */
+#idc-container-parent #idc-container {
+  max-width: 100%;
 }
