@@ -73,20 +73,3 @@ layout: default
     {% endfor %}
   </ul>
 </div>
-
-<div id="container"></div>
-
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-  var gitment = new Gitment({
-    id: '{{ page.date }}',
-    owner: '{{ site.github_username }}',
-    repo: 'nicolaszhao.github.io',
-    oauth: {
-      client_id: 'b9278b873e1afc7d416a',
-      client_secret: '9cff6fbe52af48bb07c57330d19a99757aec5f74',
-    },
-  })
-  gitment.render('container')
-</script>
