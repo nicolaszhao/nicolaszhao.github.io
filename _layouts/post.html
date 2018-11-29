@@ -11,14 +11,6 @@ layout: default
     <p class="article-metadata date">
       <small>日期：{{ page.date | date: "%Y年%m月%-d日" }}</small>
     </p>
-
-    <script>
-      var idcomments_acct = '20e9ba5a8b458cc963bd64b8f0214200';
-      var idcomments_post_id;
-      var idcomments_post_url;
-    </script>
-    <script type="text/javascript" src="https://www.intensedebate.com/js/genericLinkWrapperV2.js"></script>
-    
   </div>
 
   {{ content }}
@@ -57,13 +49,13 @@ layout: default
     {% if page.previous %}
       {% assign post = page.previous %}
       <li>
-        上一篇: <a href="{{ post.url }}">{{ post.title }}</a> &raquo;
+        前一篇: <a href="{{ post.url }}">{{ post.title }}</a> &raquo;
       </li>
     {% endif %}
     {% if page.next %}
       {% assign post = page.next %}
       <li>
-        下一篇: <a href="{{ post.url }}">{{ post.title }}</a> &raquo;
+        后一篇: <a href="{{ post.url }}">{{ post.title }}</a> &raquo;
       </li>
     {% endif %}
   </ul>
@@ -82,10 +74,18 @@ layout: default
   </ul>
 </div>
 
+<div id="container"></div>
+
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
-  var idcomments_acct = '20e9ba5a8b458cc963bd64b8f0214200';
-  var idcomments_post_id;
-  var idcomments_post_url;
+  var gitment = new Gitment({
+    owner: 'nicolaszhao',
+    repo: 'https://github.com/nicolaszhao/nicolaszhao.github.io',
+    oauth: {
+      client_id: 'b9278b873e1afc7d416a',
+      client_secret: '9cff6fbe52af48bb07c57330d19a99757aec5f74',
+    },
+  })
+  gitment.render('container')
 </script>
-<span id="IDCommentsPostTitle" style="display:none"></span>
-<script type='text/javascript' src='https://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
