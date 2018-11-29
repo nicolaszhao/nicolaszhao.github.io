@@ -142,6 +142,7 @@ footer {
   &-info {
     margin-top: 2em;
     padding: .9em;
+    border: solid 1px rgba(0, 0, 0, .2);
     border-radius: .6em;
     color: $dove-grey;
     background: rgba(0, 0, 0, .1);
@@ -152,6 +153,11 @@ footer {
     }
 
     @include secondary-link;
+  }
+
+  &-pv {
+    margin: 2em 0 0;
+    color: $dove-grey;
   }
 
   &-footer {
@@ -176,9 +182,4 @@ footer {
   &-related {
     margin-bottom: 3em;
   }
-}
-
-/* 临时设置，之后调整到 intensedebate.com 中去 */
-#idc-container-parent #idc-container {
-  max-width: 100%;
 }
