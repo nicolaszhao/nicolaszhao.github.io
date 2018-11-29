@@ -11,3 +11,5 @@ plugins:
   - jekyll-feed
 
 permalink: date
+
+google_analytics: true
