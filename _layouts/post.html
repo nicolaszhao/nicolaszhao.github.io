@@ -80,7 +80,8 @@ layout: default
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
   var gitment = new Gitment({
-    owner: 'nicolaszhao',
+    id: '{{ page.date }}',
+    owner: '{{ site.github_username }}',
     repo: 'nicolaszhao.github.io',
     oauth: {
       client_id: 'b9278b873e1afc7d416a',
