@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  移动端调试利器：spy-debugger
+title:  移动端页面调试利器：spy-debugger
 ---
 
 最近，有很多 H5 页面的奇怪问题需要修复，它们在公司的各种移动端 App 内的 webview 中访问。要在 Android 中调试的页面（比如：[chrome://inspect](chrome://inspect)），需要进入 App 中隐藏的调试入口，并开启开发调试，步骤繁琐而冗长。而 iOS 设备，要在 Safari 中调试，需要客户端同学单独为你打个包。而调试前的准备工作也非常惊险，不同的设备，设置项可能要找半天。
