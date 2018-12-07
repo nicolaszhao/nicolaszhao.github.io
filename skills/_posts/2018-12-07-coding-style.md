@@ -79,8 +79,8 @@ ESLint 在初始化（`eslint --init`）时，如果你想用业内流行的规�
 
 ```json
 "scripts": {
-	...
-	"precommit": "lint-staged"
+  ...
+  "precommit": "lint-staged"
 },
 ```
 
