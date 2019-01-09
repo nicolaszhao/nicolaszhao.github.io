@@ -185,5 +185,10 @@ footer {
 }
 
 .share-logo {
-  display: none;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: -999px;
+  left: -999px;
 }
