@@ -1,15 +1,19 @@
 title: 赵不寒的网络日记
 email: nicolas-zhao@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  在自己的思想枯竭前写点什么
+  在这里记录着自己的随想、随感和技术学习日志
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nicolaszhao.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  nicolaszhao
 author: 赵不寒
-theme: jekyll-theme-hacker
+
+# theme: jekyll-theme-***
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 permalink: date
 
-google_analytics: true
+comments_enabled: true
+google_analytics_enabled: true

@@ -1,67 +1,28 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'zh-Hans' }}">
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:image" content="https://nicolaszhao.com/assets/logo.png">
 
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
     {% seo %}
-
-    {% if site.google_analytics %}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130118663-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
-
-      gtag('config', 'UA-130118663-1');
-    </script>
-    {% endif %}
+    {% include google-analytics.html %}
   </head>
 
   <body>
-    <img class="share-logo" src="https://nicolaszhao.com/assets/logo.png" alt="{{ site.title }}" />
-    <header>
-      <div class="container">
-        <h1>
-          <a class="home" href="/">
-            {{ site.title | default: site.github.repository_name }}
-          </a>
-          <small>
-            <a class="{% if page.slug == 'about' %}active{% endif %}" href="/about/">关于</a>
-            <a class="{% if page.slug == 'archives' %}active{% endif %}" href="/archives/">归档</a>
-            <a href="/feed.xml">RSS</a>
-          </small>
-        </h1>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-      </div>
-    </header>
-
-    <div class="container">
-      <section id="main_content">
-        {{ content }}
-      </section>
-    </div>
-    <footer>
-      <div class="container">
-        <p>Powered by <a href="http://jekyllrb.com/">jekyll</a> & <a href="/">Nicolas Zhao</a></p>
-        <p>
-          &copy; 2019 Nicolas Zhao |
-          {% for link in site.data.contact %}
-            <a href="{{ link.url }}">{{ link.title }}</a>
-            {% if forloop.last == false %} | {% endif %}
-          {% endfor %}
-        </p>
-      </div>
-    </footer>
+    <main class="wrapper">
+      {% include header.html %}
+      {{ content }}
+      {% include footer.html %}
+    </main>
 
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   </body>

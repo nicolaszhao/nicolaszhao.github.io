@@ -1,11 +1,9 @@
 ---
-layout: default
-title: 关于
+layout: page
+title: 关于我
 slug: about
 permalink: /about/
 ---
-
-# 关于我
 
 我是 Nicolas Zhao，中文名：赵晓冬，赵不寒是我的网络用名，是一个专注于 web 前端技术的前端开发者和程序员。
 

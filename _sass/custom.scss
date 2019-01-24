@@ -1,194 +1,89 @@
-@import "default_colors";
-
-@mixin primary-link {
-  a {
-    color: rgba(181, 232, 83, .6);
-    text-decoration: none;
-
-    &:hover,
-    &.active {
-      color: $conifer;
-    }
-  }
-}
-
-@mixin secondary-link {
-  a {
-    color: #444;
-    text-shadow: none;
-    text-decoration: none;
-
-    &:hover {
-      color: $silver-chalice;
-    }
-  }
-}
-
-a {
-  transition: .4s;
-}
-
-header {
-  h1 {
-    a {
-      display: inline-block;
-      color: $conifer;
-      text-decoration: none;
-    }
-
-    .home {
-      margin-right: 1.3em;
-    }
-
-    small {
-      font-size: .7em;
-      font-weight: normal;
-
-      a {
-        margin-right: 1em;
-      }
-
-      @include primary-link;
-    }
-  }
-}
-
-footer {
-  width: 100%;
-  border-top: 1px dashed $conifer;
-  padding: 10px 0 30px;
-  margin: 60px 0 0;
-  color: $dove-grey;
-
-  p {
-    margin: .4em 0;
+@media (max-width: 600px) {
+  .logo {
+    float: none;
+    text-align: center;
   }
 
-  @include secondary-link;
-}
-
-@media only screen and (max-width: 760px) {
-  header h1 {
-    margin-left: 0;
-  }
-
-  header h1:before {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 520px) {
-  header h1 a {
-    display: block;
-    margin-bottom: 0.3em;
-  }
-
-  header h1 small {
-    display: block;
-    padding-left: 0.4em;
-  }
-}
-
-.archives-nav {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0 0 1em;
-
-  li {
-    display: inline-block;
-    list-style: none;
-    margin: 0 1.4em .6em 0;
-  }
-
-  a {
-    font-size: 1.125em;
-    text-decoration: none;
-  }
-
-  @include primary-link;
-}
-
-.archives-list {
-  li {
-    margin-bottom: .6em;
-  }
-}
-
-.not-match {
-  min-height: 240px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  h1 {
-    margin: 15px 0 30px;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-}
-
-.article {
-  &-header {
-    margin-bottom: 2em;
-  }
-
-  &-metadata {
-    color: $dove-grey;
-  }
-
-  &-info {
-    margin-top: 2em;
-    padding: .9em;
-    border: solid 1px rgba(0, 0, 0, .2);
-    border-radius: .6em;
-    color: $dove-grey;
-    background: rgba(0, 0, 0, .1);
-
-    li {
-      margin-bottom: .6em;
-      list-style: none;
-    }
-
-    @include secondary-link;
-  }
-
-  &-pv {
-    margin: 2em 0 0;
-    color: $dove-grey;
-  }
-
-  &-footer {
-    margin: 2.4em 0;
-    padding-top: 1em;
-    border-top: solid 1px hsla(0, 0%, 100%, .1);
-  }
-
-  &-category {
-    margin-bottom: 1.6em;
-    @include primary-link;
-  }
-
-  &-nav {
-    padding: 0;
-
-    li {
-      list-style: none;
-    }
-  }
-
-  &-related {
-    margin-bottom: 3em;
+  .navbar {
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 .share-logo {
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  top: -999px;
-  left: -999px;
+  display: none;
+}
+
+.post-item {
+  display: flex;
+
+  .article-title {
+    flex: 1;
+  }
+
+  .date-label {
+    width: 10em;
+    text-align: right;
+  }
+}
+
+.post-more {
+  margin: 1.4em 0 1em;
+}
+
+.archives-nav {
+  margin-bottom: 2em;
+
+  &bar {
+    margin: 0;
+    list-style: none;
+
+    li {
+      display: inline-block;
+
+
+      &:not(:last-child):after {
+        content: '/';
+        color: $light-gray-color;
+      }
+
+      a.active {
+        font-size: 1.125em;
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+.post-info {
+  margin-top: 1.4em;
+  padding: 1em;
+  color: $medium-gray-color;
+  background: lighten($light-gray-color, 15%);
+
+  ul {
+    margin-bottom: 0;
+  }
+
+  a {
+    color: $medium-gray-color;
+  }
+}
+
+.post-pv {
+  margin: 1.2em 0 1.4em;
+  color: $medium-gray-color;
+}
+
+.post-nav {
+  margin: 0;
+  list-style: none;
+}
+
+.page-not-match {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

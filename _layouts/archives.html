@@ -1,41 +1,61 @@
 ---
-layout: default
+layout: page
 ---
 
-<ul class="archives-nav">
-  <li>
-    <a class="{% if page.category == nil %}active{% endif %}" href="/archives/">全部归档</a>
-  </li>
+<nav class="archives-nav">
+  <ul class="archives-navbar">
+    <li>
+      <a class="{% if page.category == nil %}active{% endif %}" href="{{ '/archives/' | prepend: site.baseurl | prepend: site.url }}">全部归档</a>
+    </li>
 
-  {% for category in site.data.categories %}
-    {% if category.slug == page.category %}
-      <li>
-        {% assign current_category = category %}
-        <a class="active" href="/archives/{{ category.slug }}">{{ category.name }}</a>
-      </li>
-    {% else %}
-      <li>
-        <a href="/archives/{{ category.slug }}">{{ category.name }}</a>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+    {% for category in site.data.categories %}
+      {% assign archives_url = '/archives/' | append: category.slug | prepend: site.baseurl | prepend: site.url %}
+      {% if category.slug == page.category %}
+        <li>
+          {% assign current_category = category %}
+          <a class="active" href="{{ archives_url }}">{{ category.title }}</a>
+        </li>
+      {% else %}
+        <li>
+          <a href="{{ archives_url }}">{{ category.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>
 
-<ul class="archives-list">
+<section class="post-list">
   {% for post in site.posts %}
-    {% capture article_link %}
-      {{ post.date | date: "%Y.%m.%-d" }}: <a href="{{ post.url }}">{{ post.title }}</a>
+    {% capture post_item %}
+      <article class="post-item">
+        <div class="article-title">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+            {{ post.title }}
+          </a>
+        </div>
+        <span class="post-meta date-label">{{ post.date | date: "%Y.%m.%d" }}</span>
+      </article>
     {% endcapture %}
+
+    {% unless post.next %}
+      <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
+    {% else %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% if year != nyear %}
+        <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
+      {% endif %}
+    {% endunless %}
 
     {% if current_category %}
       {% for cate in post.categories %}
         {% if cate == current_category.slug %}
-          <li>{{ article_link }}</li>
+          {{ post_item }}
           {% break %}
         {% endif %}
       {% endfor %}
     {% else %}
-      <li>{{ article_link }}</li>
+      {{ post_item }}
     {% endif %}
   {% endfor %}
-</ul>
+</section>

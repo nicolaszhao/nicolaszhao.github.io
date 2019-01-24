@@ -2,75 +2,83 @@
 layout: default
 ---
 
-<article>
-  <div class="article-header">
-    <h1>{{ page.title }}</h1>
-    <p class="article-metadata author">
-      作者：{{ page.author | default: site.author }}
+<article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y年%m月%d日" }}</time>
+      &middot;
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">{{ page.author | default: site.author }}</span>
+      </span>
     </p>
-    <p class="article-metadata date">
-      <small>日期：{{ page.date | date: "%Y年%m月%-d日" }}</small>
-    </p>
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+  </header>
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
   </div>
 
-  {{ content }}
-
-  <ul class="article-info">
-    <li>
-      版权声明：
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/">
-        知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议
-      </a>
-    </li>
-    <li>
-      发表日期：
-      {{ page.date | date: "%Y年%m月%-d日" }}
-    </li>
-  </ul>
-  <div class="social-share" data-sites="weibo,douban,wechat,qq"></div>
-  <div class="article-pv">
-    <span id="busuanzi_container_page_pv" class="article-pv-text">
-      已有 <span id="busuanzi_value_page_pv"></span> 人阅读
-    </span>
+  <div class="post-info">
+    <ul>
+      <li>
+        版权声明：
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/">
+          知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议
+        </a>
+      </li>
+      <li>
+        发表日期：
+        {{ page.date | date: "%Y年%m月%d日" }}
+      </li>
+    </ul>
   </div>
 </article>
 
-<div class="article-footer">
+<div class="post-extra container">
+  <div class="social-share" data-sites="weibo,douban,wechat,qq"></div>
+  <p class="post-pv">
+    <span id="busuanzi_container_page_pv" class="post-pv-text">
+      已有 <span id="busuanzi_value_page_pv"></span> 人阅读
+    </span>
+  </p>
+
   {% for category in site.data.categories %}
     {% if category.slug == page.categories[0] %}
       {% assign article_category = category %}
       {% break %}
     {% endif %}
   {% endfor %}
-
   {% if article_category %}
-    <p class="article-category">
-      分类：<a href="/archives/{{ article_category.slug }}">{{ article_category.name }}</a>
+    <p>
+      分类：<a class="link" href="{{ '/archives/' | append: article_category.slug | prepend: site.baseurl | prepend: site.url }}">{{ article_category.title }}</a>
     </p>
   {% endif %}
 
-  <ul class="article-nav">
+  <ul class="post-nav">
     {% if page.previous %}
       {% assign post = page.previous %}
       <li>
-        前一篇: <a href="{{ post.url }}">{{ post.title }}</a> &raquo;
+        前一篇: <a class="prev" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
       </li>
     {% endif %}
     {% if page.next %}
       {% assign post = page.next %}
       <li>
-        后一篇: <a href="{{ post.url }}">{{ post.title }}</a> &raquo;
+        后一篇: <a class="next" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
       </li>
     {% endif %}
   </ul>
 </div>
 
-<div class="article-related">
-  <h2>相关文章</h2>
-  <ul class="archives-list">
+<div class="post-recent container">
+  <h2>近期文章</h2>
+  <ul>
     {% for post in site.related_posts %}
+      {% if forloop.index > 5  %}
+        {% break %}
+      {% endif %}
+
       {% capture article_link %}
-        {{ post.date | date: "%Y.%m.%-d" }}: <a href="{{ post.url }}">{{ post.title }}</a>
+        {{ post.date | date: "%Y.%m.%d" }}: <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
       {% endcapture %}
 
       <li>{{ article_link }}</li>
@@ -78,18 +86,4 @@ layout: default
   </ul>
 </div>
 
-<div id="gitalk-container"></div>
-
-<script>
-  var gitalk = new Gitalk({
-    clientID: 'b9278b873e1afc7d416a',
-    clientSecret: '9cff6fbe52af48bb07c57330d19a99757aec5f74',
-    repo: 'nicolaszhao.github.io',
-    owner: '{{ site.github_username }}',
-    admin: ['{{ site.github_username }}'],
-    id: location.pathname,
-    distractionFreeMode: false
-  });
-
-  gitalk.render('gitalk-container');
-</script>
+{% include comments.html %}

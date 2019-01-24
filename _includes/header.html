@@ -1,0 +1,26 @@
+<header class="site-header">
+  <nav class="nav">
+    <div class="container">
+      <h1 class="logo">
+        <a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">
+          {{ site.title | default: site.github.repository_name }}
+        </a>
+        <span class="share-logo">
+          <img src="{{ '/assets/logo.png' | prepend: site.baseurl | prepend: site.url }}" alt="{{ site.title }}" />
+        </span>
+      </h1>
+      <ul class="navbar">
+        <li>
+          <a href="{{ '/about/' | prepend: site.baseurl | prepend: site.url }}">关于</a>
+        </li>
+        <li>
+          <a href="{{ '/archives/' | prepend: site.baseurl | prepend: site.url }}">归档</a>
+
+        </li>
+        <li>
+          <a href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" target="_blank">RSS</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
