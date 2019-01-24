@@ -15,13 +15,13 @@ title: 打造属于自己的前端工具箱
 
 在 Visual Studio Code 中内置了很多默认的代码片段，比如在编辑器中输入 `forof`：
 
-![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image-3.png)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image-3.jpg)
 
 在弹出的提示列表中，只要列表项左侧的图标是一个底部是点线，其他边是实线的矩形方块，都是可以直接使用的代码片段。
 
 除了内置的代码片段，你还可以创建**用户代码片段**（Code - 首选项 - 用户代码片段），新建或者选择一个代码片段的类型，然后，在打开的一个 `*.json` 文件中会显示带有注释的、预设的部分代码片段（`console.log`），比如像下面这个：
 
-```json
+```
 {
   // Place your snippets for javascript here. Each snippet is defined under a snippet name and has a prefix, body and
   // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
@@ -41,11 +41,11 @@ title: 打造属于自己的前端工具箱
 
 其中，需要设置的字段也很容易看懂，比如 `prefix` ，就是在你写代码时输入的代码片段快捷指令，选择后，就可以生成 `body` 中的代码。像上面这段，当输入 `log` 时，编辑器会自动弹出帮助提示列表，然后，选择你预设的代码片段指令，并按下回车，代码片段就会立刻自动生成。
 
-![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image-1.png)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image-1.jpg)
 
 下面是一个创建 React 标准组件的代码片段：
 
-```json
+```
 {
   "React standard class component": {
     "scope": "javascript,typescript",
@@ -72,7 +72,7 @@ title: 打造属于自己的前端工具箱
 
 当你在编辑器中输入 `rc`，就会出现如下提示：
 
-![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image-2.png)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image-2.jpg)
 
 ## Gist
 
@@ -80,7 +80,7 @@ title: 打造属于自己的前端工具箱
 
 所以，[GithubGist](https://gist.github.com) 就可以登场了。
 
-![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image-4.png)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image-4.jpg)
 
 Gist 的功能非常简单实用。如上图所示，输入描述、文件名（可包含文件类型）、代码内容，另外，还可以设置代码缩进格式等。
 
@@ -148,7 +148,7 @@ export default {
 
 下图是我自己个人用的一个 Library —— [tote-box](https://github.com/nicolaszhao/tote-box) 的模块分类截图：
 
-![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image-5.png)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image-5.jpg)
 
 ## 总结
 
