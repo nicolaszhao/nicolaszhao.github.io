@@ -2,11 +2,22 @@
 layout: default
 ---
 
+<section class="intro">
+  <div class="container">
+    {% assign latest_post = site.posts[0] %}
+    <h1>{{ latest_post.title }}</h1>
+    <p class="lead">{{ latest_post.excerpt }}</p>
+    <a class="link" href="{{ latest_post.url | prepend: site.baseurl | prepend: site.url }}">
+      阅读全文 &raquo;
+    </a>
+  </div>
+</section>
+
 <section class="post-list">
   <div class="container">
     <h2 class="category-title">最新文章</h2>
     {% for post in site.posts %}
-      {% if forloop.index > 10  %}
+      {% if forloop.index > 7  %}
         {% break %}
       {% endif %}
 
