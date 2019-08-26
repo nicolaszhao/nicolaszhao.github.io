@@ -301,13 +301,6 @@ VSCode 的 Angular 控制台。 Angular CLI 的用户界面应用程序。
 - [Web Tools Weekly](https://webtoolsweekly.com/), *https://webtoolsweekly.com/*
 - [CSS Animation Weekly](https://weekly.cssanimation.rocks/), *https://weekly.cssanimation.rocks/*
 
-## 往期回顾
+关注微信公众号：**zhao-buhan**，定期获得技术日志推送
 
-[第 2 期在公众号中不显示]
-
-* [前端技术日志 | 19年8月21日 | 新的 React DevTools 介绍]()
-
-欢迎关注微信公众号：zhao-buhan，获得定期的技术日志推送。
-
-![赵不寒的网络日记](https://upload-images.jianshu.io/upload_images/17058619-bc1496fde3fdd5ae.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+![赵不寒的网络日记](https://upload-images.jianshu.io/upload_images/17058619-bc1496fde3fdd5ae.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp)
