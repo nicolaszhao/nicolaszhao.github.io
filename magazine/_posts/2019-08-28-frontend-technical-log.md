@@ -304,4 +304,4 @@ VSCode 的 Angular 控制台。 Angular CLI 的用户界面应用程序。
 
 关注微信公众号：**zhao-buhan**，定期获得技术日志推送
 
-![赵不寒的网络日记](https://upload-images.jianshu.io/upload_images/17058619-bc1496fde3fdd5ae.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp)
+![赵不寒的网络日记](/assets/post-images/qrcode-clean.jpg)
