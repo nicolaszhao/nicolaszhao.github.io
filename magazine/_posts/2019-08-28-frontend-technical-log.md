@@ -74,6 +74,14 @@ Web Template Studio 是来自微软的 Visual Studio Code 的一个扩展，可�
 
 *JENS OLIVER MEIERT*
 
+### [CSS 实现围绕视口的弹跳元素](https://css-tricks.com/bounce-element-around-viewport-in-css/?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter)
+
+了解下如何使用 CSS 创建类似 Pong 的效果！
+
+*https://css-tricks.com/bounce-element-around-viewport-in-css/?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter*
+
+*css-tricks.com*
+
 ### [iframes 太糟糕了，来让我们看看如何让他们进行改进](https://medium.com/@bluepnume/iframes-are-just-terrible-heres-how-they-could-be-better-974b731f0fb4)
 
 PayPal 的首席工程师 *Daniel Brian* 强调了使用 `<iframe>` 的一些问题。 “我真的希望浏览器厂商开始将基于用户界面的 iframe 视为网络上的一等公民，并帮助修复现在还不可聚合的一些问题。”
@@ -281,6 +289,22 @@ VSCode 的 Angular 控制台。 Angular CLI 的用户界面应用程序。
 一系列免费，美观，SVG 等距插图，您可以在您的网站，应用程序或任何项目中使用。
 
 *https://isometric.online/*
+
+## 创意
+
+### [弹射音量控制器](https://codepen.io/madix/pen/zMVWBZ?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter)
+
+*https://codepen.io/madix/pen/zMVWBZ?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter*
+
+*codepen.io*
+
+### [动词动画](https://codepen.io/hexagoncircle/pen/MWgbqON?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter)
+
+使用 Splitting JS 来动画动词中的字母。
+
+*https://codepen.io/hexagoncircle/pen/MWgbqON?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter*
+
+*codepen.io* 
 
 ## 版本发布
 
