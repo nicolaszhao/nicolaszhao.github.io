@@ -304,7 +304,7 @@ VSCode 的 Angular 控制台。 Angular CLI 的用户界面应用程序。
 
 *https://codepen.io/hexagoncircle/pen/MWgbqON?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter*
 
-*codepen.io* 
+*codepen.io*
 
 ## 版本发布
 
@@ -328,4 +328,4 @@ VSCode 的 Angular 控制台。 Angular CLI 的用户界面应用程序。
 
 关注微信公众号：**zhao-buhan**，定期获得技术日志推送
 
-![赵不寒的网络日记](/assets/post-images/qrcode-clean.jpg)
+![赵不寒的网络日记](/assets/qrcode-clean.jpg)
