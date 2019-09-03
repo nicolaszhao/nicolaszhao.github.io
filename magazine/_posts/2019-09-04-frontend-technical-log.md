@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 前端技术日志 | ES6 Symbols 实用指南
+title: 前端技术日志 | JavaScript 是如何成长并成为一门“真正的”语言的
 excerpt: 分享定期收集的前端前沿技术、文章、工具和资源。
 ---
 
@@ -10,6 +10,14 @@ excerpt: 分享定期收集的前端前沿技术、文章、工具和资源。
 
 ## 本期热文
 
+### [JavaScript 是如何成长并成为一门“真正的”语言的](https://t.co/ESSX9e8ATO)
+
+当 2005 年第一次看到谷歌地图，但早在 1999 年，在微软发布 IE 5 时，就有了 `XMLHttpRequest` 的相关文档。当开发者们看到 JavaScript 可以在浏览器中完成更好的交互时，就好像打开了潘多拉的魔盒，JavaScript 就此迎来了第二春！
+
+*https://t.co/ESSX9e8ATO*
+
+*MATTHEW MACDONALD*
+
 ### [ES6 Symbols 实用指南](http://thecodebarbarian.com/a-practical-guide-to-symbols-in-javascript.html)
 
 ES6 引入 symbols 作为新的基本类型用来充当唯一标识符， 以下是它们的用途。
@@ -17,12 +25,6 @@ ES6 引入 symbols 作为新的基本类型用来充当唯一标识符， 以下
 *http://thecodebarbarian.com/a-practical-guide-to-symbols-in-javascript.html*
 
 *VALERI KARPOV*
-
-### [JavaScript 是如何成长并成为一门“真正的”语言的](https://t.co/ESSX9e8ATO)
-
-*https://t.co/ESSX9e8ATO*
-
-*MATTHEW MACDONALD*
 
 ### [第一次启动浏览器时会发生什么？](https://twitter.com/jonathansampson/status/1166005813548396549)
 
@@ -260,11 +262,11 @@ ColorSlurp 是开发人员或设计人员的终极色彩生产助推器。 使�
 
 ## 版本发布
 
-- [SystemJS 6.0](https://github.com/systemjs/systemjs/releases/tag/6.0.0)，https://github.com/systemjs/systemjs/releases/tag/6.0.0
-- [react-datepicker 2.9.0](https://github.com/Hacker0x01/react-datepicker)，https://github.com/Hacker0x01/react-datepicker
-- [VeeValidate 3.0](https://www.baianat.com/labs/code/veevalidate-3-0)  -  Vue.js 的基于模板验证，https://www.baianat.com/labs/code/veevalidate-3-0
-- [Quasar 1.1](https://quasar.dev/)  - 快速构建 Vue.js 驱动的界面，https://quasar.dev/
-- [jquery.terminal 2.8](https://github.com/jcubic/jquery.terminal)  - 在 Web 上创建类似终端的体验，https://github.com/jcubic/jquery.terminal
+- [SystemJS 6.0](https://github.com/systemjs/systemjs/releases/tag/6.0.0)，*https://github.com/systemjs/systemjs/releases/tag/6.0.0*
+- [react-datepicker 2.9.0](https://github.com/Hacker0x01/react-datepicker)，*https://github.com/Hacker0x01/react-datepicker*
+- [VeeValidate 3.0](https://www.baianat.com/labs/code/veevalidate-3-0)  -  Vue.js 的基于模板验证，*https://www.baianat.com/labs/code/veevalidate-3-0*
+- [Quasar 1.1](https://quasar.dev/)  - 快速构建 Vue.js 驱动的界面，*https://quasar.dev/*
+- [jquery.terminal 2.8](https://github.com/jcubic/jquery.terminal)  - 在 Web 上创建类似终端的体验，*https://github.com/jcubic/jquery.terminal*
 
 ## 内容来源
 
