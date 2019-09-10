@@ -1,8 +1,12 @@
 ---
 layout: post
-title: 前端技术日志 |
+title: 前端技术日志 | D3.js 简介
 excerpt: 分享定期收集的前端前沿技术、文章、工具和资源。
 ---
+
+> 本期刊专注于 Web 前端前沿技术，收集的内容来自于国外各大前端技术周刊，这里把自己感兴趣的，并值得分享的内容做了整理。
+
+部分链接可能无法直接打开，你需要通过**科学上网**的方式来解决。
 
 ## 本期热文
 
@@ -13,6 +17,14 @@ excerpt: 分享定期收集的前端前沿技术、文章、工具和资源。
 *https://wattenberger.com/blog/d3*
 
 *AMELIA WATTENBERGER*
+
+### [我最喜欢的 CSS Hack](https://dev.to/gajus/my-favorite-css-hack-32g3)
+
+`{ border: 1px solid red }` 是通过在每个元素周围设置边框来调试 CSS 和 HTML 问题的经典技巧。这一技巧需要些额外的步骤，但可以很好的帮助你定位问题，特别是嵌套元素。
+
+*https://dev.to/gajus/my-favorite-css-hack-32g3*
+
+*GAJUS KUIZINAS*
 
 ### [苹果公司在生产中发布了 Web 组件](https://dev.to/ionic/apple-just-shipped-web-components-to-production-and-you-probably-missed-it-57pf)
 
@@ -29,14 +41,6 @@ Apple 刚为他们的 Apple Music 服务推出了一个基于 Web 的客户端�
 *https://fettblog.eu/void-in-javascript-and-typescript/*
 
 *STEFAN BAUMGARTNER*
-
-### [我最喜欢的 CSS Hack](https://dev.to/gajus/my-favorite-css-hack-32g3)
-
-`{ border: 1px solid red }` 是通过在每个元素周围设置边框来调试 CSS 和 HTML 问题的经典技巧。这一技巧需要些额外的步骤，但可以很好的帮助你定位问题，特别是嵌套元素。
-
-*https://dev.to/gajus/my-favorite-css-hack-32g3*
-
-*GAJUS KUIZINAS*
 
 ### [Firefox 69 发布：面向开发者的新功能](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/69)
 
@@ -106,6 +110,18 @@ https://css-tricks.com/need-to-scroll-to-the-top-of-the-page/
 
 ## 工具 & 资源
 
+### [React Developer Tools](https://www.npmjs.com/package/react-devtools)
+
+浏览器中的 React 开发者工具插件（Chrome 和 Firefox），现在已经更新到版本 3+。
+
+*https://www.npmjs.com/package/react-devtools*
+
+### [Webpack Boilerplate](https://github.com/taniarascia/webpack-boilerplate?mc_cid=1b9802fdde&mc_eid=e1e4216411)
+
+轻量的 Webpack 4 样板代码，包含了 Babel，Sass，ESLint，热模块更新，以及开发/生产的优化。
+
+*https://github.com/taniarascia/webpack-boilerplate?mc_cid=1b9802fdde&mc_eid=e1e4216411*
+
 ### [Bitmelo](https://bitmelo.com/)
 
 一个可在线创建 JavaScript 游戏的工具。
@@ -138,12 +154,6 @@ https://css-tricks.com/need-to-scroll-to-the-top-of-the-page/
 
 *NHN ENTERTAINMENT*
 
-### [Webpack Boilerplate](https://github.com/taniarascia/webpack-boilerplate?mc_cid=1b9802fdde&mc_eid=e1e4216411)
-
-轻量的 Webpack 4 样板代码，包含了 Babel，Sass，ESLint，热模块更新，以及开发/生产的优化。
-
-*https://github.com/taniarascia/webpack-boilerplate?mc_cid=1b9802fdde&mc_eid=e1e4216411*
-
 ### [CSS 书写模式 Level 3](https://www.w3.org/TR/2019/CR-css-writing-modes-3-20190903/?mc_cid=1b9802fdde&mc_eid=e1e4216411)
 
 CSS 书写模式 Level 3 定义了 CSS 支持各种书写模式及其组合，包括从左到右和从右到左的文本排序以及水平和垂直方向。
@@ -173,12 +183,6 @@ Chrome 和 Firefox 扩展程序。 在浏览器中实时快速检查和调整对
 来自 Facebook 的工具包，用于在多个 JavaScript 或 TypeScript 文件上运行 codemod。
 
 *https://github.com/facebook/jscodeshift*
-
-### [React Developer Tools](https://www.npmjs.com/package/react-devtools)
-
-浏览器中的 React 开发者工具插件（Chrome 和 Firefox），现在已经更新到版本 3+。
-
-*https://www.npmjs.com/package/react-devtools*
 
 ### [Uptrends](https://www.uptrends.com/)
 
@@ -216,6 +220,26 @@ Chrome 和 Firefox 扩展程序。 在浏览器中实时快速检查和调整对
 
 *https://enpose.co/*
 
+## 创意
+
+### [“订单确认”趣味按钮](https://codepen.io/aaroniker/pen/eYOVrNa?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter)
+
+*https://codepen.io/aaroniker/pen/eYOVrNa?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter*
+
+*codepen.io*
+
+### [模拟时钟](https://codepen.io/JavaScriptJunkie/pen/gOYvPMv?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter)
+
+*https://codepen.io/JavaScriptJunkie/pen/gOYvPMv?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter*
+
+*codepen.io*
+
+### [滚动实验](https://codepen.io/andybarefoot/pen/rNBJGxj?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter)
+
+*https://codepen.io/andybarefoot/pen/rNBJGxj?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter*
+
+*codepen.io*
+
 ## 版本发布
 
 - [Node 12.10](https://nodejs.org/en/blog/release/v12.10.0/Handlebars.js), *https://nodejs.org/en/blog/release/v12.10.0/Handlebars.js*
@@ -235,6 +259,11 @@ Chrome 和 Firefox 扩展程序。 在浏览器中实时快速检查和调整对
 - [Web Tools Weekly](https://webtoolsweekly.com/), *https://webtoolsweekly.com/*
 - [CSS Animation Weekly](https://weekly.cssanimation.rocks/), *https://weekly.cssanimation.rocks/*
 
-欢迎关注微信公众号：**zhao-buhan**，定期获得技术日志推送
+## 往期回顾
+
+* [前端技术日志 | JavaScript 是如何成长并成为一门“真正的”语言的](/magazine/2019/09/04/frontend-technical-log.html)
+* [前端技术日志 | 在生产环境中使用原生 JavaScript 模块](/magazine/2019/08/28/frontend-technical-log.html)
+
+欢迎关注微信公众号：**zhao-buhan**，关注前端前沿技术
 
 ![赵不寒的网络日记](/assets/qrcode-clean.jpg)
