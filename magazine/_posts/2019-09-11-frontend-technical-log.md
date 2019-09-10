@@ -261,8 +261,8 @@ Chrome 和 Firefox 扩展程序。 在浏览器中实时快速检查和调整对
 
 ## 往期回顾
 
-* [前端技术日志 | JavaScript 是如何成长并成为一门“真正的”语言的](/magazine/2019/09/04/frontend-technical-log.html)
-* [前端技术日志 | 在生产环境中使用原生 JavaScript 模块](/magazine/2019/08/28/frontend-technical-log.html)
+* [JavaScript 是如何成长并成为一门“真正的”语言的](/magazine/2019/09/04/frontend-technical-log.html)
+* [在生产环境中使用原生 JavaScript 模块](/magazine/2019/08/28/frontend-technical-log.html)
 
 欢迎关注微信公众号：**zhao-buhan**，关注前端前沿技术
 
