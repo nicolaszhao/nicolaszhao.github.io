@@ -170,15 +170,15 @@ Node.js 命令行界面的完整解决方案，启发于 Ruby commander。
 
 ![css 卡片悬停效果](/assets/post-images/2019-09-17/3.gif)
 
-https://codepen.io/Jhonierpc/pen/MWgBJpy?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter
+*https://codepen.io/Jhonierpc/pen/MWgBJpy?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter*
 
 *codepen.io*
 
 ## 版本发布
 
-* [Babel 7.6.0 (和 7.6.1)](https://github.com/babel/babel/releases/tag/v7.6.0) - 最流行的 JavaScript 转换器, https://github.com/babel/babel/releases/tag/v7.6.0
-* [mustache.js 3.1](https://github.com/janl/mustache.js) - 无逻辑的 JavaScript 模板引擎, https://github.com/janl/mustache.js
-* [Bootstrap-Vue 2.0](https://bootstrap-vue.js.org/) - 面向 Vue.js 的 Bootstrap 框架, https://bootstrap-vue.js.org/
+* [Babel 7.6.0 (和 7.6.1)](https://github.com/babel/babel/releases/tag/v7.6.0) - 最流行的 JavaScript 转换器, *https://github.com/babel/babel/releases/tag/v7.6.0*
+* [mustache.js 3.1](https://github.com/janl/mustache.js) - 无逻辑的 JavaScript 模板引擎, *https://github.com/janl/mustache.js*
+* [Bootstrap-Vue 2.0](https://bootstrap-vue.js.org/) - 面向 Vue.js 的 Bootstrap 框架, *https://bootstrap-vue.js.org/*
 
 ## 内容来源
 
@@ -194,6 +194,6 @@ https://codepen.io/Jhonierpc/pen/MWgBJpy?utm_campaign=CSS%20Animation%20Weekly&u
 * [JavaScript 是如何成长并成为一门“真正的”语言的](/magazine/2019/09/04/frontend-technical-log.html)
 * [在生产环境中使用原生 JavaScript 模块](/magazine/2019/08/28/frontend-technical-log.html)
 
-扫码关注微信公众号，一起关注前端技术
+关注我的公众号，关注前端技术
 
 ![赵不寒的网络日记](/assets/qrcode-clean.jpg)
