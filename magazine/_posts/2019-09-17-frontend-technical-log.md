@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 前端技术日志 |
+title: 前端技术日志 | 2019 年最佳的 10 个 CSS 框架
 excerpt: 分享定期收集的前端前沿技术、文章、工具和资源。
 ---
 
@@ -10,21 +10,11 @@ excerpt: 分享定期收集的前端前沿技术、文章、工具和资源。
 
 ## 本期热文
 
-### [在 Windows 上将 JavaScript 开发移动到终端](https://www.smashingmagazine.com/2019/09/moving-javascript-development-bash-windows/)
+### [2019 年最佳的 10 个 CSS 框架](https://www.creativebloq.com/features/best-css-frameworks?goal=0_df65b6d7c8-a3972a1b38-59188657)
 
-如果您在熟悉了 macOS 或 Linux 之后最近又体验过 Windows，那么这就很适合您。 这是一个非常详细的介绍，使用 WSL 等在 Windows 10 上创建强大而优雅的基于终端的开发体验。
+2019 年了，你完全可以使用 Flexbox 和 CSS Grid 布局你的项目。但这些框架中的模块仍然很有帮助，但如果你只是用到它们的 Grid 功能的话，还是推荐尝试下 CSS Grid。
 
-*https://www.smashingmagazine.com/2019/09/moving-javascript-development-bash-windows/*
-
-*BURKE HOLLAND*
-
-### [JavaScript 中的节拍器](https://meowni.ca/posts/metronomes/)
-
-这是一个有趣的实验，用于比较异步函数，Web Workers 的效能，以及使用 Web Audio API 的时钟精确调度事物。
-
-*https://meowni.ca/posts/metronomes/*
-
-*MONICA DINCULESCU*
+*https://www.creativebloq.com/features/best-css-frameworks?goal=0_df65b6d7c8-a3972a1b38-59188657*
 
 ### [ECMAScript 不同版本的新功能列表](https://github.com/daumann/ECMAScript-new-features-list)
 
@@ -34,20 +24,6 @@ excerpt: 分享定期收集的前端前沿技术、文章、工具和资源。
 
 *DIETMAR AUMANN*
 
-### [Immer 4.0](https://immerjs.github.io/immer/docs/introduction)
-
-一个流行的工具包，能很方便的来处理 JS 数据的不可变状态。
-
-*https://immerjs.github.io/immer/docs/introduction*
-
-*IMMER*
-
-### [2019 年最佳的 10 个 CSS 框架](https://www.creativebloq.com/features/best-css-frameworks?goal=0_df65b6d7c8-a3972a1b38-59188657)
-
-2019 年了，你完全可以使用 Flexbox 和 CSS Grid 布局你的项目。但这些框架中的模块仍然很有帮助，但如果你只是用到它们的 Grid 功能的话，还是推荐尝试下 CSS Grid。
-
-*https://www.creativebloq.com/features/best-css-frameworks?goal=0_df65b6d7c8-a3972a1b38-59188657*
-
 ### [谷歌正以识别链接的性质的新方法发展 “ nofollow ”](https://webmasters.googleblog.com/2019/09/evolving-nofollow-new-ways-to-identify.html)
 
 谷歌在 2005 年引入了 `rel='nofollow'` 为网站所有者标记不可信的链接。这些链接不会被 Google 的算法命中并跟踪。现在 Google 正在为特定类型的内容引入两个新的 `rel` 值。
@@ -55,12 +31,6 @@ excerpt: 分享定期收集的前端前沿技术、文章、工具和资源。
 *https://webmasters.googleblog.com/2019/09/evolving-nofollow-new-ways-to-identify.html*
 
 *GOOGLE*
-
-### [使用 `Save-Data` 头加速 Web](https://nooshu.github.io/blog/2019/09/01/speeding-up-the-web-with-save-data-header/)
-
-*https://nooshu.github.io/blog/2019/09/01/speeding-up-the-web-with-save-data-header/*
-
-*MATT HOBBS*
 
 ### [Caniuse 和 MDN 兼容性数据协作](https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/)
 
@@ -86,27 +56,11 @@ Chrome 78 的 DevTools 中，在 Audits 面板中包含了 Lighthouse 5.2，在 
 
 *ANDREW JENNINGS*
 
-### [重新介绍 ES6 解构](https://www.smashingmagazine.com/2019/09/reintroduction-destructuring-assignment/)
-
-*https://www.smashingmagazine.com/2019/09/reintroduction-destructuring-assignment/*
-
-*LAURIE BARTH*
-
-### [TypeScript 3.7 的 5 大特性及其使用方法](https://httptoolkit.tech/blog/5-big-features-of-typescript-3.7/)
-
-*https://httptoolkit.tech/blog/5-big-features-of-typescript-3.7/*
-
-*TIM PERRY*
-
 ### [使用自定义属性来纠正关键帧动画中的变化](https://css-tricks.com/using-custom-properties-to-wrangle-variations-in-keyframe-animations/?goal=0_df65b6d7c8-a3972a1b38-59188657)
 
 该示例使用了自定义属性来替换动画关键帧中的缩放值，然后在应用了动画的元素上设置自定义属性。
 
 *https://css-tricks.com/using-custom-properties-to-wrangle-variations-in-keyframe-animations/?goal=0_df65b6d7c8-a3972a1b38-59188657*
-
-### [使用 CSS Grid 创建可自适应的列](https://twitter.com/CodyWebHouse/status/1171801319834673152?goal=0_df65b6d7c8-a3972a1b38-59188657)
-
-*https://twitter.com/CodyWebHouse/status/1171801319834673152?goal=0_df65b6d7c8-a3972a1b38-59188657*
 
 ### [掌握 HTML `<audio>` 标签](https://catswhocode.com/html-audio-tag/)
 
@@ -124,35 +78,27 @@ Chrome 78 的 DevTools 中，在 Audits 面板中包含了 Lighthouse 5.2，在 
 
 *JESS MITCHELL*
 
-### [使用 `rel="preconnect"` 尽早建立网络连接并提高性能](https://css-tricks.com/using-relpreconnect-to-establish-network-connections-early-and-increase-performance/)
+### [TypeScript 3.7 的 5 大特性及其使用方法](https://httptoolkit.tech/blog/5-big-features-of-typescript-3.7/)
 
-*https://css-tricks.com/using-relpreconnect-to-establish-network-connections-early-and-increase-performance/*
+*https://httptoolkit.tech/blog/5-big-features-of-typescript-3.7/*
 
-*CHRIS COYIER*
-
-### [是时候在你的网站上停止无限滚动了](https://hackernoon.com/stop-infinite-scrolling-on-your-website-now-ie6rg31eu)
-
-*https://hackernoon.com/stop-infinite-scrolling-on-your-website-now-ie6rg31eu*
-
-*MONISH REDDY*
+*TIM PERRY*
 
 ## 工具 & 资源
 
-### [CSS-Camera](https://woodneck.github.io/css-camera/?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter)
+### [Immer 4.0](https://immerjs.github.io/immer/docs/introduction)
 
-使用 CSS 3D 变换，让您的网站 3D 化。
+一个流行的工具包，能很方便的来处理 JS 数据的不可变状态。
 
-*https://woodneck.github.io/css-camera/?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter*
+*https://immerjs.github.io/immer/docs/introduction*
 
-*woodneck.github.io*
+*IMMER*
 
-### [nanoSQL 2](https://nanosql.io/)
+### [Commander.js](https://github.com/tj/commander.js)
 
-一个适用于客户端，服务器和移动设备的通用“数据库层”。
+Node.js 命令行界面的完整解决方案，启发于 Ruby commander。
 
-*https://nanosql.io/*
-
-*SCOTT LOTT*
+*https://github.com/tj/commander.js*
 
 ### [React Suite 4.0](https://rsuitejs.com/en/)
 
@@ -161,20 +107,6 @@ Chrome 78 的 DevTools 中，在 Audits 面板中包含了 Lighthouse 5.2，在 
 *https://rsuitejs.com/en/*
 
 *HYPERS*
-
-### [Emoji Button](https://github.com/joeattardi/emoji-button)
-
-一个 JavaScript 表情符号选择器。
-
-*https://github.com/joeattardi/emoji-button*
-
-*JOE ATTARDI*
-
-### [Commander.js](https://github.com/tj/commander.js)
-
-Node.js 命令行界面的完整解决方案，启发于 Ruby commander。
-
-*https://github.com/tj/commander.js*
 
 ### [NativeScript](https://www.nativescript.org/)
 
@@ -188,23 +120,11 @@ Node.js 命令行界面的完整解决方案，启发于 Ruby commander。
 
 *https://mithril.js.org/*
 
-### [React Layouts](https://react-layouts.com/)
-
-用于 React 的，现代的独立页面布局的样式示例的首选资源。
-
-*https://react-layouts.com/*
-
 ### [Moveable](https://daybrush.com/moveable/)
 
 让页面上的一个对象可拖动、可调整大小、可缩放、可旋转、可变形以及可插入。
 
 *https://daybrush.com/moveable/*
-
-### [Flawwwless UI](https://ui.flawwwless.com/)
-
-用于构建企业应用程序的 React 组件库。
-
-*https://ui.flawwwless.com/*
 
 ### [date-fns](https://date-fns.org/)
 
@@ -228,15 +148,11 @@ Node.js 命令行界面的完整解决方案，启发于 Ruby commander。
 
 *https://edernclemente.com/plugin/typelighterjs*
 
-### [Search UI](https://swiftype.com/search-ui)
-
-一个 JavaScript 搜索框架，不需要重复造轮子就能实现世界级的搜索体验。
-
-*https://swiftype.com/search-ui*
-
 ## 创意
 
 ### [一个美妙的 CSS Heading 动画](https://codepen.io/kylewetton/pen/omgBgG?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter)
+
+![一个美妙的 CSS Heading 动画](/assets/post-images/2019-09-17/1.gif)
 
 *https://codepen.io/kylewetton/pen/omgBgG?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter*
 
@@ -244,11 +160,15 @@ Node.js 命令行界面的完整解决方案，启发于 Ruby commander。
 
 ### [可爱的亲吻](https://codepen.io/Pixmy/pen/KKPWjbq?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter)
 
+![可爱的亲吻](/assets/post-images/2019-09-17/2.gif)
+
 *https://codepen.io/Pixmy/pen/KKPWjbq?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter*
 
 *codepen.io*
 
 ### [css 卡片悬停效果](https://codepen.io/Jhonierpc/pen/MWgBJpy?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter)
+
+![css 卡片悬停效果](/assets/post-images/2019-09-17/3.gif)
 
 https://codepen.io/Jhonierpc/pen/MWgBJpy?utm_campaign=CSS%20Animation%20Weekly&utm_medium=email&utm_source=Revue%20newsletter
 
@@ -270,7 +190,9 @@ https://codepen.io/Jhonierpc/pen/MWgBJpy?utm_campaign=CSS%20Animation%20Weekly&u
 
 ## 往期回顾
 
+* [D3.js 简介](/magazine/2019/09/11/frontend-technical-log.html)
 * [JavaScript 是如何成长并成为一门“真正的”语言的](/magazine/2019/09/04/frontend-technical-log.html)
+* [在生产环境中使用原生 JavaScript 模块](/magazine/2019/08/28/frontend-technical-log.html)
 
 扫码关注微信公众号，一起关注前端技术
 
