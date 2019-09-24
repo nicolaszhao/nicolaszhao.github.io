@@ -40,6 +40,6 @@ excerpt: 分享定期收集的前端前沿技术、文章、工具和资源。
 
 * [JavaScript 是如何成长并成为一门“真正的”语言的](/magazine/2019/09/04/frontend-technical-log.html)
 
-扫码关注微信公众号，一起关注前端技术
+关注我的公众号，关注前端技术
 
 ![赵不寒的网络日记](/assets/qrcode-clean.jpg)
