@@ -14,7 +14,7 @@ https://crank.js.org/blog/introducing-crank
 
 ### Node.js 14 发布
 
-现在 v14 已经成为当前的发布版本，并在 10 月份将成为 LTS 版本。
+现在 v14 已经成为最新的发布版本，并在 10 月份将成为 LTS 版本。
 
 https://medium.com/@nodejs/node-js-version-14-available-now-8170d384567e
 
