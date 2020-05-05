@@ -15,5 +15,5 @@ plugins:
 
 permalink: date
 
-comments_enabled: true
+comments_enabled: false
 google_analytics_enabled: true
