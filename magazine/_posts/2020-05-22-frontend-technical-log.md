@@ -84,7 +84,7 @@ Facebook 完全重建了它的技术栈，以实现其性能和增长目标。�
 
 一种简单且有交互式的生成器，用于向页面添加花哨的截面分隔符。
 
-![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }/image1.png)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image1.png)
 
 [https://wweb.dev/resources/css-separator-generator](https://wweb.dev/resources/css-separator-generator)
 
@@ -98,7 +98,7 @@ Facebook 完全重建了它的技术栈，以实现其性能和增长目标。�
 
 一个纯 CSS 图案库，非常漂亮，可用来填充你的页面背景。
 
-![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }/image2.png)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image2.png)
 
 [https://bansal.io/pattern-css](https://bansal.io/pattern-css)
 
