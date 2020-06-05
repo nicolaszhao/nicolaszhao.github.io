@@ -6,7 +6,7 @@ excerpt: Snowpack 2.0：一个现代 Web 构建系统; 响应式 Web 设计诞�
 
 > 本技术日志，每周定期分享，欢迎关注、转发。
 
-![](/Users/zhaoxiaodong/Workspace/Nicolas/nicolaszhao.github.io/assets/post-images/2020-06-05/cover2.jpg)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/cover2.jpg)
 
 ### Snowpack 2.0：一个现代 Web 构建系统
 
@@ -52,7 +52,7 @@ excerpt: Snowpack 2.0：一个现代 Web 构建系统; 响应式 Web 设计诞�
 
 来欣赏一下 CSS 艺术家 Diana Smith 的作品。
 
-![](/Users/zhaoxiaodong/Workspace/Nicolas/nicolaszhao.github.io/assets/post-images/2020-06-05/image1.jpg)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image1.jpg)
 
 [https://diana-adrianne.com/purecss-gaze/](https://diana-adrianne.com/purecss-gaze/)
 
@@ -84,7 +84,7 @@ Create React App 官方的 Redux + TypeScript 模板。
 
 一个小型的 Library，用于创建和动画草稿式的批注。
 
-![](/Users/zhaoxiaodong/Workspace/Nicolas/nicolaszhao.github.io/assets/post-images/2020-06-05/image2.png)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image2.png)
 
 [https://roughnotation.com/](https://roughnotation.com/)
 
