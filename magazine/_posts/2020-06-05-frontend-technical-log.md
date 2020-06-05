@@ -46,8 +46,6 @@ excerpt: Snowpack 2.0：一个现代 Web 构建系统; 响应式 Web 设计诞�
 
 [https://typeofnan.dev/10-javascript-quiz-questions-and-answers/](https://typeofnan.dev/10-javascript-quiz-questions-and-answers/)
 
-## 实用工具
-
 ### 纯 CSS 油画
 
 来欣赏一下 CSS 艺术家 Diana Smith 的作品。
@@ -55,6 +53,8 @@ excerpt: Snowpack 2.0：一个现代 Web 构建系统; 响应式 Web 设计诞�
 ![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image1.jpg)
 
 [https://diana-adrianne.com/purecss-gaze/](https://diana-adrianne.com/purecss-gaze/)
+
+## 实用工具
 
 ### LaTeX.css
 
