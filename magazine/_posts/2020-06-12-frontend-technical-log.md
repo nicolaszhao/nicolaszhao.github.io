@@ -10,7 +10,7 @@ excerpt: 新书推荐：《JavaScript：权威指南》（第7版）; 最新 Bab
 
 来自 David Flanagan 的最新 JavaScript 开发必备工具书。
 
-![](/Users/zhaoxiaodong/Workspace/Nicolas/nicolaszhao.github.io/assets/post-images/2020-06-12/cover3.png)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/cover3.png)
 
 [https://webtoolsweekly.com/reading/?view=2XsNnT8](https://webtoolsweekly.com/reading/?view=2XsNnT8)
 
@@ -24,7 +24,7 @@ excerpt: 新书推荐：《JavaScript：权威指南》（第7版）; 最新 Bab
 
 ### CSS 变量用户手册
 
-![](/Users/zhaoxiaodong/Workspace/Nicolas/nicolaszhao.github.io/assets/post-images/2020-06-12/cover1.jpg)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/cover1.jpg)
 
 [https://increment.com/frontend/a-users-guide-to-css-variables/](https://increment.com/frontend/a-users-guide-to-css-variables/)
 
@@ -86,7 +86,7 @@ SpiderMonkey 是 Firefox 的 JavaScript 引擎，最近有了一个新的正则�
 
 一个非常棒的，轻量级的高级表格插件，可以与 React、Angular、Vue 等配合使用。
 
-![](/Users/zhaoxiaodong/Workspace/Nicolas/nicolaszhao.github.io/assets/post-images/2020-06-12/cover2.png)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/cover2.png)
 
 [https://gridjs.io/](https://gridjs.io/)
 
@@ -100,7 +100,7 @@ SpiderMonkey 是 Firefox 的 JavaScript 引擎，最近有了一个新的正则�
 
 一个强大的 Markdown 所见即所得编辑器。
 
-![](/Users/zhaoxiaodong/Workspace/Nicolas/nicolaszhao.github.io/assets/post-images/2020-06-12/image4.jpg)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image4.jpg)
 
 [https://github.com/nhn/tui.editor](https://github.com/nhn/tui.editor)
 
@@ -120,7 +120,7 @@ SpiderMonkey 是 Firefox 的 JavaScript 引擎，最近有了一个新的正则�
 
 一个渐变效果库，上面的渐变效果相当漂亮。你可以随意复制粘贴你喜欢的效果为 CSS 代码，或者下载 PNG。
 
-![](/Users/zhaoxiaodong/Workspace/Nicolas/nicolaszhao.github.io/assets/post-images/2020-06-12/image1.png)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image1.png)
 
 [https://gradienthunt.com/](https://gradienthunt.com/)
 
@@ -128,7 +128,7 @@ SpiderMonkey 是 Firefox 的 JavaScript 引擎，最近有了一个新的正则�
 
 可生成自定义 Bézier 曲线的 CSS 缓动工具。
 
-![](/Users/zhaoxiaodong/Workspace/Nicolas/nicolaszhao.github.io/assets/post-images/2020-06-12/image2.png)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image2.png)
 
 [https://easings.co/](https://easings.co/)
 
@@ -136,7 +136,7 @@ SpiderMonkey 是 Firefox 的 JavaScript 引擎，最近有了一个新的正则�
 
 一个类似于 Windows XP 的旧版 UI 库。
 
-![](/Users/zhaoxiaodong/Workspace/Nicolas/nicolaszhao.github.io/assets/post-images/2020-06-12/image3.png)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image3.png)
 
 [https://botoxparty.github.io/XP.css/](https://botoxparty.github.io/XP.css/)
 
