@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 前端技术日志 - 2020年6月12日
+title: 前端技术日志 - 2020年6月19日
 excerpt: 153 个 JavaScript 知识问答; ECMAScript 之：逻辑分配运算符; CSS 的新伪类 :is() 和 :where()
 ---
 
