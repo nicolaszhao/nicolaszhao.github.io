@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 前端技术日志 - 2020年7月3日
-excerpt: Safari 14 测试版发布说明; ECMAScript 提议：类中的私有静态方法和访问器
+excerpt: Safari 14 测试版发布说明; ECMAScript 提案：类中的私有静态方法和访问器
 ---
 
 > 本技术日志，每周定期分享，欢迎关注、转发。
@@ -26,7 +26,7 @@ Safari 14 将于今年晚些时候与 iOS 14 和 macOS 11 一起发布。以下�
 
 [https://developer.apple.com/documentation/safari-release-notes/safari-14-beta-release-notes](https://developer.apple.com/documentation/safari-release-notes/safari-14-beta-release-notes)
 
-### ECMAScript 提议：类中的私有静态方法和访问器
+### ECMAScript 提案：类中的私有静态方法和访问器
 
 一个即将发布的语言功能，该功能处于第 3 阶段，目前已经得到了 Babel 等工具的支持。
 
