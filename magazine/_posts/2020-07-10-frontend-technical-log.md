@@ -68,6 +68,8 @@ Vue 3.0 发布了 18 个 beta 版本，他们准备在 7 月中旬发布第一�
 
 ### `!!` 运算符处理 JS 真/假值的误解
 
+[https://www.bennadel.com//blog/3858-the-double-bang-operator-and-a-misunderstanding-of-how-javascript-handles-truthy-falsy-values.htm](https://www.bennadel.com//blog/3858-the-double-bang-operator-and-a-misunderstanding-of-how-javascript-handles-truthy-falsy-values.htm)
+
 ### 当 Sass 和新的 CSS 特性发生冲突
 
 CSS 已经增加了很多很酷的、丰富的特性，但像 Sass 这样的预处理器，目前仍然是必要的。
