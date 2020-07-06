@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 前端技术日志 - 2020年7月10日
-excerpt: 
+excerpt: Chrome 85 中 DevTools 的新功能; Bootstrap Icons Alpha 5 发布; Vue 3.0 简要状态更新
 ---
 
 > 本技术日志，每周定期分享，欢迎关注、转发。
@@ -90,7 +90,7 @@ CSS 已经增加了很多很酷的、丰富的特性，但像 Sass 这样的预�
 
 一个跨平台的色彩管理工具，包括色彩选择器、调色板，和对比度检查器等。
 
-![](/Users/zhaoxiaodong/Workspace/Nicolas/nicolaszhao.github.io/assets/post-images/2020-07-10/image1.png)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image1.png)
 
 [https://swach.io/](https://swach.io/)
 
@@ -98,7 +98,7 @@ CSS 已经增加了很多很酷的、丰富的特性，但像 Sass 这样的预�
 
 一个轻量级表情符号选择器组件。
 
-![](/Users/zhaoxiaodong/Workspace/Nicolas/nicolaszhao.github.io/assets/post-images/2020-07-10/image2.png)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image2.png)
 
 [https://github.com/nolanlawson/emoji-picker-element](https://github.com/nolanlawson/emoji-picker-element)
 
@@ -118,7 +118,7 @@ CSS 已经增加了很多很酷的、丰富的特性，但像 Sass 这样的预�
 
 可以渲染任何内容为 HTML 复选框的样子。虽然看上去有点浮夸，但你别说，这效果还挺不错的。
 
-![](/Users/zhaoxiaodong/Workspace/Nicolas/nicolaszhao.github.io/assets/post-images/2020-07-10/image3.jpg)
+![](/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}/image3.jpg)
 
 [https://www.bryanbraun.com/checkboxland/](https://www.bryanbraun.com/checkboxland/)
 
