@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 前端技术日志: 2020年7月17日
+title: 前端技术日志：2020年7月17日
 excerpt: Temporal，JavaScript 中处理日期和时间的未来 API; Chrome 新功能：“CSS 概览”Tab; ESLint 7.4.0 发布
 ---
 

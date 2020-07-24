@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 前端技术日志: 2020年7月24日
+title: 前端技术日志：2020年7月24日
 excerpt: Adobe Flash 将在今年年底前结束使命; Codepan 现在可以通过 pen.new 来访问了; GraphQL 的客户端 Apollo Client 3.0 发布
 ---
 
