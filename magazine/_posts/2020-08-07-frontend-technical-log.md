@@ -1,12 +1,12 @@
 ---
 layout: post
 title: 前端技术日志：2020年8月7日
-excerpt: "Can I Use" 的新 Beta 版; Web 字体 10 年了
+excerpt: “Can I Use” 的新 Beta 版; Web 字体 10 年了
 ---
 
 > 本技术日志，每周定期分享，欢迎关注、转发。
 
-### "Can I Use" 的新 Beta 版
+### “Can I Use” 的新 Beta 版
 
 [https://beta.caniuse.com/](https://beta.caniuse.com/)
 
