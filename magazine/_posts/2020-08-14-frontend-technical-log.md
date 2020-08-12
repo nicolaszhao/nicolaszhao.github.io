@@ -110,7 +110,7 @@ const myRegex = SuperExpressive()
 - [Web Tools Weekly](https://webtoolsweekly.com/): *https://webtoolsweekly.com/*
 - [CSS Animation Weekly](https://weekly.cssanimation.rocks/): *https://weekly.cssanimation.rocks/*
 
-关注公众号，关注前端技术
+欢迎关注我的公众号，关注前端技术
 
 ![赵不寒的网络日记](/assets/qrcode-clean.jpg)
 
