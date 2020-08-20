@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 前端技术日志：2020年8月21日
-excerpt: 
+excerpt: Firefox 背后的 Mozilla 也开始大裁员了，MDN 还会有人维护吗？
 ---
 
 > 本技术日志，每周定期分享，欢迎关注、转发。
